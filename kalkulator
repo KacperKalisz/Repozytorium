@@ -1,0 +1,23 @@
+def dodawanie(a, b):
+    return a + b
+
+def odejmowanie(a, b):
+    return a - b
+
+def mnozenie(a, b):
+    return a * b
+
+def dzielenie(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Błąd: Nie można dzielić przez zero."
+
+a = float(input("Podaj pierwszą liczbę: "))
+b = float(input("Podaj drugą liczbę: "))
+
+print("Wyniki operacji:")
+print("Dodawanie:", dodawanie(a, b))
+print("Odejmowanie:", odejmowanie(a, b))
+print("Mnożenie:", mnozenie(a, b))
+print("Dzielenie:", dzielenie(a, b))
